@@ -122,21 +122,25 @@ SECONDA SEZIONE
 
 main .background .contain-flex{
     width:70%;
-    height:500px;
     display:flex;
     margin:0 auto;
 }
 
-main .background .contain-flex .first-item{
-    border:2px dotted black;
-    background-color:#1F90FF;
+main .background .contain-flex .first-item{  
     flex-grow:2;
 }
 
 main .background .contain-flex .second-item{
-    border:2px dotted black;
-    background-color:#FFC0CA;
     flex-grow:1;
+}
+main .background .contain-flex .second-item > h1{
+    margin-top:30px;
+    font-size:50px;
+    line-height:60px;
+}
+main .background .contain-flex .second-item > p{
+    margin-top:40px;
+    line-height:25px;
 }
 
 /******************
