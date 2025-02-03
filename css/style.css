@@ -13,45 +13,50 @@ COMMAND
 INTESTAZIONE PAGINA
 ******************/
 header{
-    background-color:#ADD8E6;
+    background-color:#255EE9;
     padding:18px 0;
 }
 
 header .flex-container{
     display:flex;
-    width:70%;
+    width:80%;
     margin:0 auto;
-    background-color:#DAA520;
-    border: 1px dotted #000000;
-    font-size:16px;
+    font-size:20px;
 }
 
 .flex-container .flex-item-lateral{
     padding:14px;
     flex-grow:1;
 }
+.flex-container .flex-item-lateral #logo-header{
+    width:150px;
+}
 
 .flex-container .flex-item-central{
     list-style-type: none;
     display:flex;
     padding:14px;
-    border-right:2px dotted #000000;
-    border-left:2px dotted #000000;
     flex-grow:3;
+    flex-shrink:0;
     justify-content:center;
+    color: #FFFFFF;
 }
 
 .flex-container .flex-item-central > li{
     margin-left:12px;
     margin-right:12px;
+    line-height:35px;
 }
 
 header .flex-container .flex-item-lateral:last-child{
-    border-left:2px dotted #000000;
     text-align:right;
 }
-header .flex-container .flex-item-lateral:first-child{
-    border-right:2px dotted #000000;
+
+.flex-container .flex-item-lateral #btn-accedi{
+    background-color: #FFFFFF;
+    padding:10px;
+    border-radius:20px;
+    border: 1px solid #FFFFFF;
 }
 
 
