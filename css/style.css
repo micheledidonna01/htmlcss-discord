@@ -96,7 +96,7 @@ main .background .unique-box .buttons{
     margin-top:50px;
     margin-bottom:100px;
 }
-main .background .unique-box .btn-white{
+main .background .btn-white{
     background-color: #FFFFFF;
     padding:10px;
     border-radius:20px;
@@ -175,10 +175,25 @@ main .background:nth-child(5){
 
 main .background #second-box-unique{
     width:70%;
-    background-color:#228B23;
-    height:900px;
 }
 
+main .background .start-adventure{
+    width:50%;
+    margin:100px auto 50px;
+    text-align:center;
+    background-image: url('../img/stars.svg');
+    background-size:contain;
+    background-repeat:no-repeat;
+    padding:30px;
+}
+
+main .background #btn-special{
+    background-color:#7288DA;
+    border: 1px solid #7288DA;
+    text-align:center;
+    margin-top:50px;
+    color:white;
+}
 
 /******************
 SESTA SEZIONE
