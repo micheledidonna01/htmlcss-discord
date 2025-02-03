@@ -74,15 +74,45 @@ main .background{
 }
 
 main #first-section{
-    background-color:#00008B;;
+    background-image: url('../img/jumbo.png');
+    background-size:cover;
+    color: #FFFFFF;
 }
 
 main .background .unique-box{
     width:50%;
-    height:400px;
-    background-color:#EE82EF;
     margin: 0 auto;
-    border:2px dotted black;
+    text-align:center;
+
+}
+main .background .unique-box > h1{
+    line-height:60px;
+}
+main .background .unique-box > p{
+    line-height:30px;
+    font-size:22px;
+}
+main .background .unique-box .buttons{
+    margin-top:50px;
+    margin-bottom:100px;
+}
+main .background .unique-box .btn-white{
+    background-color: #FFFFFF;
+    padding:10px;
+    border-radius:20px;
+    border: 1px solid #FFFFFF;
+    margin-right:20px;
+    font-size:20px;
+}
+
+main .background .unique-box .btn-black{
+    background-color: #000000;
+    padding:10px;
+    border-radius:20px;
+    border: 1px solid #000000;
+    color:#FFFFFF;
+    margin-left:20px;
+    font-size:20px;
 }
 
 
