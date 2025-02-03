@@ -9,6 +9,9 @@ COMMAND
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.color-violet{
+    color:#7288DA;
+}
 /******************
 INTESTAZIONE PAGINA
 ******************/
@@ -19,7 +22,7 @@ header{
 
 header .flex-container{
     display:flex;
-    width:80%;
+    width:90%;
     margin:0 auto;
     font-size:20px;
 }
@@ -201,34 +204,54 @@ SESTA SEZIONE
 
 main #sixth-section{
     background-color:#23272A;
-    padding-top:10px;
+    padding-top:50px;
     padding-bottom:40px;
+    color:#FFFFFF;
 }
+
 main #sixth-section .sixth-container{
-    height:580px;
     width:70%;
     display:flex;
     margin:0 auto;
-    border: 2px dotted #000000;
+}
+
+main #sixth-section .sixth-container .first-item .language{
+    margin: 40px 0;
+}
+
+main #sixth-section .sixth-container .first-item .language span{
+    font-size:25px;
+}
+
+main #sixth-section .sixth-container .first-item .icons .fa-brands{
+    font-size:30px;
+    margin-right:50px;
 }
 
 main #first-item-sixth{
     flex-grow:1;
-    background-color:#F18080;
 }
 
 main #second-item-sixth{
     flex-grow:3;
-    background-color:#1EB2AA;
     display:flex;
-    
+}
+
+#img-ita{
+    width:50px;
+    height:35px;
 }
 
 .first-son-item, .second-son-item, .third-son-item, .fourth-son-item{
-    border: 2px dotted #FFFFFF;
     flex-grow:1;
+    margin-right:20px;
 }
-
+#second-item-sixth ul{
+    list-style-type: none;
+}
+#second-item-sixth ul li{
+    line-height:40px;
+}
 
 /******************
 PIEDE DELLA PAGINA
